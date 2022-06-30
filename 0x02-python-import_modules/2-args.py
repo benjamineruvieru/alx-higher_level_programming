@@ -5,5 +5,5 @@ if __name__ == "__main__":
         print('0 arguments.')
     else:
         print('{} arguments :'.format(len(sys.argv)
-        for i in range(0, len(sys.argv)):
-            print(len(sys.argv))
+        for arg in sys.argv:
+            print(arg)
