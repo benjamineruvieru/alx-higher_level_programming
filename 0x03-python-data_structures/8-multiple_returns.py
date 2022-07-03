@@ -6,5 +6,5 @@ def multiple_returns(sentence):
         first_cha = sentence[0]
         result = (lenght, first_cha)
     else:
-        result = 'None'
+        result = (0, 'None')
     return result
