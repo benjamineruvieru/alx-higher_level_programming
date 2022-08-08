@@ -9,12 +9,12 @@ from models.rectangle import Rectangle
 
 class Square(Rectangle):
     """Class describing a square.
-        Inherits from Rectangle.
+            Inherits from Rectangle.
     Public instance methods:
-        - area()
-        - display()
-        - to_dictionary()
-        - update()
+            - area()
+            - display()
+            - to_dictionary()
+            - update()
 
     """
 
@@ -22,10 +22,10 @@ class Square(Rectangle):
         """Initializes a Square instance.
 
         Args:
-            - __size: size
-            - __x: position
-            - __y: position
-            - id: id
+                - __size: size
+                - __x: position
+                - __y: position
+                - id: id
         """
 
         self.size = size
@@ -59,10 +59,10 @@ class Square(Rectangle):
         """Updates attributes of an instance.
 
         Args:
-            - id attribute
-            - size attribute
-            - x attribute
-            - y attribute
+                - id attribute
+                - size attribute
+                - x attribute
+                - y attribute
         """
 
         if args is not None and len(args) != 0:

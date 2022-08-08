@@ -8,23 +8,23 @@ from models.base import Base
 
 class Rectangle(Base):
     """Class describing a rectangle.
-        Inherits from Base.
+            Inherits from Base.
     Public instance methods:
-        - area()
-        - display()
-        - to_dictionary()
-        - update()
+            - area()
+            - display()
+            - to_dictionary()
+            - update()
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initializes a Rectangle instance.
 
         Args:
-            - __width: width
-            - __height: height
-            - __x: position
-            - __y: position
-            - id: id
+                - __width: width
+                - __height: height
+                - __x: position
+                - __y: position
+                - id: id
         """
 
         self.width = width
@@ -128,11 +128,11 @@ class Rectangle(Base):
         """Updates attributes of an instance.
 
         Args:
-            - id attribute
-            - width attribute
-            - height attribute
-            - x attribute
-            - y attribute
+                - id attribute
+                - width attribute
+                - height attribute
+                - x attribute
+                - y attribute
         """
 
         if args is not None and len(args) != 0:
