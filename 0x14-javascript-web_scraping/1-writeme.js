@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-fs.readFile(process.argv[2], 'utf-8', function (err, result) {
+fs.writeFile(process.argv[2], process.argv[3], 'utf-8', (err, result) => {
   if (err) {
     console.log(err);
   } else {
